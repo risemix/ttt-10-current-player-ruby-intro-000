@@ -9,9 +9,9 @@ def display_board(board)
 end
 
 board = ["X", " ", " ", " ", " ", " ", " ", " ", " "]
+turns = 0
 
 def turn_count(board)
-  turns = 0
   board.each do |space|
     if space == "X" || "O"
       turns += 1
