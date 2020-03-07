@@ -10,8 +10,8 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def turn_count
-
+def turn_count(board)
+  board.each do |space|
 end
 
 def current_player
