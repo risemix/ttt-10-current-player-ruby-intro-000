@@ -8,11 +8,8 @@ def display_board(board)
   puts "-----------"
 end
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = ["X", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def turn_count(board)
   board.each do |space|
-end
-
-def current_player
 end
