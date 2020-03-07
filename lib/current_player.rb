@@ -17,4 +17,5 @@ def turn_count(board)
       turns += 1
     end
   }
+  puts turns
 end
